@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                             mp.start();
                             toggleButton.setBackgroundColor(RED);
                         }
-                    }, 40000);
+                    }, 10000);
                 } else {
                     Toast.makeText(MainActivity.this, "Uncheck", Toast.LENGTH_SHORT).show();
                 }
