@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                             toggleButton2.setChecked(false);
                             mp.start();
                         }
-                    }, 90000);
+                    }, 100000);
 
                 } else {
                     Toast.makeText(MainActivity.this, "Uncheck", Toast.LENGTH_SHORT).show();
